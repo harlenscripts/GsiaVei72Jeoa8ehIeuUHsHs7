@@ -89,11 +89,3 @@ Tab:AddButton({
 })
 
 OrionLib:Init()
-
---- indentificar jogo
-
-if game.Id == 662417684 then
-   -- Código para o jogo correto
-else
-   game.Players.LocalPlayer:Kick("Incorrect Game!")
-end
