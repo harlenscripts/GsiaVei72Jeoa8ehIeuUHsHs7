@@ -88,6 +88,8 @@ Tab:AddButton({
   	end    
 })
 
+OrionLib:Init()
+
 --- indentificar jogo
 
 if game.Id == 662417684 then
@@ -95,5 +97,3 @@ if game.Id == 662417684 then
 else
    game.Players.LocalPlayer:Kick("Incorrect Game!")
 end
-
-OrionLib:Init()
