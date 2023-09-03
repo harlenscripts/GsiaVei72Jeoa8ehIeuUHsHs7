@@ -4,14 +4,6 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "Harlen Hub V3", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
---- indentificar jogo
-
-if game.Id == 662417684 then
-   -- Código para o jogo correto
-else
-   game.Players.LocalPlayer:Kick("Incorrect Game!")
-end
-
 --- Tab
 
 local Tab = Window:MakeTab({
@@ -95,5 +87,13 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/harlenscripts/HitBox/main/hitbox0"))()
   	end    
 })
+
+--- indentificar jogo
+
+if game.Id == 662417684 then
+   -- Código para o jogo correto
+else
+   game.Players.LocalPlayer:Kick("Incorrect Game!")
+end
 
 OrionLib:Init()
