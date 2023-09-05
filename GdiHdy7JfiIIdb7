@@ -2,6 +2,6 @@ local gameid = game.Id
 local idjogo = 662417684
 if gameid == 662417684 then
 
-print('loadstring(game:HttpGet(("https://raw.githubusercontent.com/Fe773Vdoa/SuHusYfY-eG6Tay6GWYAU38LuckyBlocky/main/SujsvKaueha77TH7e6staaLuckyBlock")))()')
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Fe773Vdoa/SuHusYfY-eG6Tay6GWYAU38LuckyBlocky/main/SujsvKaueha77TH7e6staaLuckyBlock")))()
 
 end
